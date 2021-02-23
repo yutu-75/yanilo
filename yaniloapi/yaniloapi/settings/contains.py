@@ -1,0 +1,20 @@
+
+
+
+BANNER_LENGTH = 3
+
+NAV_TOP_LENGTH = 5
+
+NAV_BOTTOM_LENGTH = 5
+
+
+
+
+
+
+
+
+
+
+
+

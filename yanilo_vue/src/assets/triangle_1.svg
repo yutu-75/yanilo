@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="48px" viewBox="0 0 46 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>三角形</title>
+    <desc>Created with Sketch.</desc>
+    <g id="第二版" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="课程大纲" transform="translate(-1357.000000, -218.000000)" fill="#FFFFFF">
+            <g id="bofang" transform="translate(1321.000000, 190.000000)">
+                <path d="M60.4966954,30.6589224 L83.2216996,73.531667 C83.4803528,74.0196393 83.2944529,74.6248988 82.8064806,74.883552 C82.6622172,74.9600198 82.5014242,75 82.3381476,75 L36.6693545,75 C36.1170697,75 35.6693545,74.5522847 35.6693545,74 C35.6693545,73.8353782 35.7099958,73.6733025 35.7876712,73.5281582 L58.7314602,30.6554136 C58.9920512,30.1684734 59.598045,29.9849812 60.0849852,30.2455722 C60.2602566,30.3393705 60.4035946,30.4832795 60.4966954,30.6589224 Z" id="三角形" transform="translate(59.500000, 52.000000) rotate(90.000000) translate(-59.500000, -52.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
