@@ -3014,3 +3014,5 @@ INFO 2021-02-26 20:46:38,884 autoreload 617 Watching for file changes with StatR
 INFO 2021-02-26 20:46:46,133 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/apps/home/adminx.py changed, reloading.
 INFO 2021-02-26 20:46:47,113 autoreload 617 Watching for file changes with StatReloader
 INFO 2021-02-26 20:46:50,794 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-26 21:05:40,764 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-26 21:05:53,242 autoreload 617 Watching for file changes with StatReloader

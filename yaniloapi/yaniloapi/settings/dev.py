@@ -284,3 +284,9 @@ STATICFILES_DIRS = [
 MEDIA_ROOT=os.path.join(BASE_DIR,"uploads")
 # 访问上传文件的url地址前缀
 MEDIA_URL ="/media/"
+
+# 收集静态文件的位置
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
+
+# 收集命令
+# python manage.py collectstatic
