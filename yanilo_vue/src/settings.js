@@ -1,5 +1,5 @@
 export default {
-  Host:"http://api.yanilo.top:8000",// server address
+  Host:"http://api.yanilo.top:81",// server address
     check_login(ths){
       let token = localStorage.token || sessionStorage.token;
       //console.log(this.token);

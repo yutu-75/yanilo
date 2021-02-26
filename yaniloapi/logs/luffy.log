@@ -3016,3 +3016,108 @@ INFO 2021-02-26 20:46:47,113 autoreload 617 Watching for file changes with StatR
 INFO 2021-02-26 20:46:50,794 autoreload 617 Watching for file changes with StatReloader
 INFO 2021-02-26 21:05:40,764 autoreload 617 Watching for file changes with StatReloader
 INFO 2021-02-26 21:05:53,242 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-27 01:03:29,495 autoreload 617 Watching for file changes with StatReloader
+WARNING 2021-02-27 01:03:34,914 log 224 Not Found: /
+WARNING 2021-02-27 01:03:34,917 basehttp 157 "GET / HTTP/1.1" 404 2265
+WARNING 2021-02-27 01:03:35,293 log 224 Not Found: /favicon.ico
+WARNING 2021-02-27 01:03:35,293 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2316
+INFO 2021-02-27 01:04:38,747 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-27 03:32:29,129 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-27 03:33:20,657 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-27 03:33:20,676 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-27 03:33:20,828 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
+INFO 2021-02-27 03:33:20,832 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 283
+WARNING 2021-02-27 03:33:20,986 log 224 Not Found: /media/banner/banner3_OvU3jdf.jpg
+WARNING 2021-02-27 03:33:20,987 log 224 Not Found: /media/banner/banner2_w8BGwRf.gif
+WARNING 2021-02-27 03:33:20,989 log 224 Not Found: /media/banner/banner1_it3JuHJ.jpg
+WARNING 2021-02-27 03:33:20,990 basehttp 157 "GET /media/banner/banner1_it3JuHJ.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 03:33:20,991 basehttp 157 "GET /media/banner/banner3_OvU3jdf.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 03:33:20,992 basehttp 157 "GET /media/banner/banner2_w8BGwRf.gif HTTP/1.1" 404 1856
+INFO 2021-02-27 03:33:29,765 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-27 03:33:29,765 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-27 03:33:29,861 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
+INFO 2021-02-27 03:33:33,829 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-27 03:33:33,830 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-27 03:33:33,938 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
+INFO 2021-02-27 03:33:33,941 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 283
+WARNING 2021-02-27 03:33:34,010 log 224 Not Found: /media/banner/banner3_OvU3jdf.jpg
+WARNING 2021-02-27 03:33:34,010 basehttp 157 "GET /media/banner/banner3_OvU3jdf.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 03:33:34,018 log 224 Not Found: /media/banner/banner1_it3JuHJ.jpg
+WARNING 2021-02-27 03:33:34,021 log 224 Not Found: /media/banner/banner2_w8BGwRf.gif
+WARNING 2021-02-27 03:33:34,022 basehttp 157 "GET /media/banner/banner2_w8BGwRf.gif HTTP/1.1" 404 1856
+WARNING 2021-02-27 03:33:34,025 basehttp 157 "GET /media/banner/banner1_it3JuHJ.jpg HTTP/1.1" 404 1856
+INFO 2021-02-27 03:36:52,733 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-27 03:36:52,734 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-27 03:36:52,827 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
+INFO 2021-02-27 03:37:08,522 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 283
+WARNING 2021-02-27 03:37:08,573 log 224 Not Found: /media/banner/banner2_w8BGwRf.gif
+WARNING 2021-02-27 03:37:08,574 basehttp 157 "GET /media/banner/banner2_w8BGwRf.gif HTTP/1.1" 404 1856
+WARNING 2021-02-27 03:37:08,576 log 224 Not Found: /media/banner/banner1_it3JuHJ.jpg
+WARNING 2021-02-27 03:37:08,577 basehttp 157 "GET /media/banner/banner1_it3JuHJ.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 03:37:08,580 log 224 Not Found: /media/banner/banner3_OvU3jdf.jpg
+WARNING 2021-02-27 03:37:08,581 basehttp 157 "GET /media/banner/banner3_OvU3jdf.jpg HTTP/1.1" 404 1856
+INFO 2021-02-27 03:42:54,779 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-27 03:42:54,782 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-27 03:42:54,876 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
+INFO 2021-02-27 03:42:54,886 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 283
+WARNING 2021-02-27 03:42:55,026 log 224 Not Found: /media/banner/banner1_it3JuHJ.jpg
+WARNING 2021-02-27 03:42:55,032 log 224 Not Found: /media/banner/banner3_OvU3jdf.jpg
+WARNING 2021-02-27 03:42:55,044 log 224 Not Found: /media/banner/banner2_w8BGwRf.gif
+WARNING 2021-02-27 03:42:55,050 basehttp 157 "GET /media/banner/banner1_it3JuHJ.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 03:42:55,052 basehttp 157 "GET /media/banner/banner2_w8BGwRf.gif HTTP/1.1" 404 1856
+WARNING 2021-02-27 03:42:55,052 basehttp 157 "GET /media/banner/banner3_OvU3jdf.jpg HTTP/1.1" 404 1856
+INFO 2021-02-27 05:07:58,745 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-27 05:07:58,756 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-27 05:07:58,876 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
+INFO 2021-02-27 05:07:58,886 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 283
+WARNING 2021-02-27 05:07:58,935 log 224 Not Found: /media/banner/banner1_it3JuHJ.jpg
+WARNING 2021-02-27 05:07:58,936 log 224 Not Found: /media/banner/banner3_OvU3jdf.jpg
+WARNING 2021-02-27 05:07:58,939 log 224 Not Found: /media/banner/banner2_w8BGwRf.gif
+WARNING 2021-02-27 05:07:58,941 basehttp 157 "GET /media/banner/banner1_it3JuHJ.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 05:07:58,944 basehttp 157 "GET /media/banner/banner3_OvU3jdf.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 05:07:58,944 basehttp 157 "GET /media/banner/banner2_w8BGwRf.gif HTTP/1.1" 404 1856
+INFO 2021-02-27 05:08:12,671 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-27 05:08:17,691 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-27 05:08:17,711 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-27 05:08:17,805 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
+INFO 2021-02-27 05:08:17,837 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 283
+WARNING 2021-02-27 05:08:18,068 log 224 Not Found: /media/banner/banner1_it3JuHJ.jpg
+WARNING 2021-02-27 05:08:18,069 basehttp 157 "GET /media/banner/banner1_it3JuHJ.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 05:08:18,076 log 224 Not Found: /media/banner/banner2_w8BGwRf.gif
+WARNING 2021-02-27 05:08:18,077 basehttp 157 "GET /media/banner/banner2_w8BGwRf.gif HTTP/1.1" 404 1856
+WARNING 2021-02-27 05:08:18,081 log 224 Not Found: /media/banner/banner3_OvU3jdf.jpg
+WARNING 2021-02-27 05:08:18,083 basehttp 157 "GET /media/banner/banner3_OvU3jdf.jpg HTTP/1.1" 404 1856
+INFO 2021-02-27 05:08:30,505 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-27 05:08:30,507 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-27 05:08:30,614 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
+INFO 2021-02-27 05:08:30,625 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 283
+WARNING 2021-02-27 05:08:30,692 log 224 Not Found: /media/banner/banner3_OvU3jdf.jpg
+WARNING 2021-02-27 05:08:30,694 log 224 Not Found: /media/banner/banner2_w8BGwRf.gif
+WARNING 2021-02-27 05:08:30,695 basehttp 157 "GET /media/banner/banner3_OvU3jdf.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 05:08:30,703 basehttp 157 "GET /media/banner/banner2_w8BGwRf.gif HTTP/1.1" 404 1856
+WARNING 2021-02-27 05:08:30,706 log 224 Not Found: /media/banner/banner1_it3JuHJ.jpg
+WARNING 2021-02-27 05:08:30,710 basehttp 157 "GET /media/banner/banner1_it3JuHJ.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 05:08:53,802 log 224 Not Found: /media/banner/banner1_it3JuHJ.jpg
+WARNING 2021-02-27 05:08:53,804 basehttp 157 "GET /media/banner/banner1_it3JuHJ.jpg HTTP/1.1" 404 1856
+WARNING 2021-02-27 05:09:08,898 log 224 Not Found: /media/banner/banner
+WARNING 2021-02-27 05:09:08,899 basehttp 157 "GET /media/banner/banner HTTP/1.1" 404 1817
+WARNING 2021-02-27 05:09:15,095 log 224 Not Found: /media/banner/
+WARNING 2021-02-27 05:09:15,096 basehttp 157 "GET /media/banner/ HTTP/1.1" 404 1740
+INFO 2021-02-27 05:09:37,119 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 5980
+INFO 2021-02-27 05:09:37,166 basehttp 157 "GET /static/rest_framework/js/jquery-3.5.1.min.js HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,173 basehttp 157 "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,174 basehttp 157 "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,175 basehttp 157 "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,175 basehttp 157 "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,176 basehttp 157 "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,200 basehttp 157 "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,197 basehttp 157 "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,199 basehttp 157 "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,192 basehttp 157 "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2021-02-27 05:09:37,229 basehttp 157 "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+INFO 2021-02-27 05:11:58,268 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-27 05:12:04,062 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-27 05:13:46,228 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-27 05:14:04,896 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-27 05:15:06,226 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/settings/dev.py changed, reloading.
+INFO 2021-02-27 05:15:07,624 autoreload 617 Watching for file changes with StatReloader
