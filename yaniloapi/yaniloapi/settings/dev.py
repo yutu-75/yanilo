@@ -84,8 +84,8 @@ CORS_ALLOW_HEADERS = (
     'x-requested-with',
 )
 CORS_ALLOWED_ORIGINS = [
-    "http://api.yanilo.top:80",
-    "http://www.yanilo.top:80",
+    "http://api.yanilo.top:81",
+    "http://www.yanilo.top:81",
 
 ]
 # 配置白名单或者全部允许
@@ -133,10 +133,10 @@ WSGI_APPLICATION = 'yaniloapi.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "HOST": "127.0.0.1",
+        "HOST": "47.108.162.205",
         "PORT": 3306,
         "USER": "root",
-        "PASSWORD": "123456",
+        "PASSWORD": "395243043y",
         "NAME": "yanilo",
     }
 }
