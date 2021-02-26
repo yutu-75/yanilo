@@ -6,7 +6,7 @@ import requests
 from django.conf import settings
 from users import models
 from django.db.models import Q
-from lyapi.settings import contains
+from yaniloapi.settings import contains
 
 def jwt_response_payload_handler(token, user=None, request=None):
     return {
@@ -103,8 +103,3 @@ class CustomeModelBackend(ModelBackend):
         except Exception:
             logger.error('验证过程代码有误，请联系管理员')
             return None
-
-
-
-
-

@@ -2,7 +2,6 @@ from django.db import models
 # from django.contrib.auth.models import User    #继承django的user表
 from django.contrib.auth.models import AbstractUser  # 继承django的表
 from django.db import models
-from django.contrib.auth.models import AbstractUser
 from yaniloapi.utils.models import BaseModel
 
 # Create your models here.
@@ -20,7 +19,7 @@ class User(AbstractUser):
     # wechat = models.CharField(max_length=16, null=True, blank=True)
 
     class Meta:
-        db_table = "_user"
+        db_table = "y_user"
         verbose_name = "用户信息"
         verbose_name_plural = verbose_name
 
@@ -36,7 +35,7 @@ class Credit(BaseModel):
     number = models.SmallIntegerField(default=0, verbose_name="积分数值")
 
     class Meta:
-        db_table = 'ly_credit'
+        db_table = 'y_credit'
         verbose_name = '积分流水'
         verbose_name_plural = verbose_name
 

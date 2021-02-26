@@ -2949,3 +2949,68 @@ INFO 2021-02-23 14:00:55,160 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 346
 INFO 2021-02-23 14:00:55,161 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
 INFO 2021-02-23 14:09:31,018 autoreload 240 /home/yanmu/桌面/yanilo/yaniloapi/yaniloapi/apps/users/models.py changed, reloading.
 INFO 2021-02-23 14:09:32,438 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 22:39:20,960 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 22:39:44,980 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 22:40:05,852 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 22:43:28,270 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 22:44:12,936 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 22:46:23,079 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 22:47:55,369 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/apps/users/models.py changed, reloading.
+INFO 2021-02-25 22:47:56,274 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 22:50:20,527 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/apps/users/models.py changed, reloading.
+INFO 2021-02-25 22:50:23,722 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 22:50:39,002 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-25 22:50:39,007 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-25 22:50:39,033 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 346
+INFO 2021-02-25 22:50:39,034 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 220
+INFO 2021-02-25 22:50:39,214 basehttp 157 "GET /media/banner/banner1_FLbvBhm.jpg HTTP/1.1" 304 0
+INFO 2021-02-25 22:50:39,231 basehttp 157 "GET /media/banner/banner2_H2nJYN8.gif HTTP/1.1" 304 0
+INFO 2021-02-25 22:50:39,231 basehttp 157 "GET /media/banner/banner4_QrhZNiE.jpg HTTP/1.1" 304 0
+INFO 2021-02-25 22:56:25,343 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/apps/users/models.py changed, reloading.
+INFO 2021-02-25 22:56:26,246 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 23:13:31,989 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/settings/dev.py changed, reloading.
+INFO 2021-02-25 23:13:33,202 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 23:19:58,955 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/apps/users/models.py changed, reloading.
+INFO 2021-02-25 23:20:00,123 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 23:20:07,702 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/apps/users/models.py changed, reloading.
+INFO 2021-02-25 23:20:08,722 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 23:23:51,142 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/apps/home/models.py changed, reloading.
+INFO 2021-02-25 23:23:52,104 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-25 23:28:19,183 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/settings/contains.py changed, reloading.
+INFO 2021-02-25 23:28:20,028 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-26 20:43:00,524 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-26 20:43:32,133 basehttp 157 "OPTIONS /users/verify/ HTTP/1.1" 200 0
+INFO 2021-02-26 20:43:32,146 basehttp 157 "OPTIONS /cart/add_cart/?xx=oo HTTP/1.1" 200 0
+INFO 2021-02-26 20:43:32,169 basehttp 157 "GET /home/nav/ HTTP/1.1" 200 2
+INFO 2021-02-26 20:43:32,189 basehttp 157 "GET /home/banner/ HTTP/1.1" 200 2
+WARNING 2021-02-26 20:44:26,494 log 224 Not Found: /
+WARNING 2021-02-26 20:44:26,495 basehttp 157 "GET / HTTP/1.1" 404 2265
+WARNING 2021-02-26 20:44:26,584 log 224 Not Found: /favicon.ico
+WARNING 2021-02-26 20:44:26,585 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2316
+INFO 2021-02-26 20:44:33,163 basehttp 157 "GET /xadmin/ HTTP/1.1" 200 4124
+INFO 2021-02-26 20:44:33,224 basehttp 157 "GET /static/xadmin/css/themes/bootstrap-xadmin.css HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,226 basehttp 157 "GET /static/xadmin/vendor/bootstrap/css/bootstrap.css HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,226 basehttp 157 "GET /static/xadmin/css/xadmin.plugins.css HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,239 basehttp 157 "GET /static/xadmin/vendor/font-awesome/css/font-awesome.css HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,243 basehttp 157 "GET /static/xadmin/css/xadmin.responsive.css HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,244 basehttp 157 "GET /static/xadmin/css/xadmin.main.css HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,255 basehttp 157 "GET /static/xadmin/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,255 basehttp 157 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4131
+INFO 2021-02-26 20:44:33,258 basehttp 157 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.core.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,264 basehttp 157 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.widget.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,269 basehttp 157 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.sortable.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,269 basehttp 157 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.mouse.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,270 basehttp 157 "GET /static/xadmin/js/xadmin.main.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,272 basehttp 157 "GET /static/xadmin/vendor/bootstrap/js/bootstrap.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,274 basehttp 157 "GET /static/xadmin/js/xadmin.responsive.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,274 basehttp 157 "GET /static/xadmin/vendor/jquery-ui/jquery.ui.effect.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,283 basehttp 157 "GET /static/xadmin/js/xadmin.plugin.themes.js HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:33,371 basehttp 157 "GET /static/xadmin/vendor/font-awesome/fonts/fontawesome-webfont.woff?v=4.0.3 HTTP/1.1" 304 0
+INFO 2021-02-26 20:44:43,110 basehttp 157 "POST /xadmin/ HTTP/1.1" 200 4361
+INFO 2021-02-26 20:44:43,148 basehttp 157 "GET /xadmin/jsi18n/ HTTP/1.1" 200 4131
+INFO 2021-02-26 20:46:34,428 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/apps/home/adminx.py changed, reloading.
+INFO 2021-02-26 20:46:35,397 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-26 20:46:38,884 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-26 20:46:46,133 autoreload 240 /home/yanmu/桌面/yanilo/yanilo/yaniloapi/yaniloapi/apps/home/adminx.py changed, reloading.
+INFO 2021-02-26 20:46:47,113 autoreload 617 Watching for file changes with StatReloader
+INFO 2021-02-26 20:46:50,794 autoreload 617 Watching for file changes with StatReloader
