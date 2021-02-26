@@ -19,7 +19,7 @@ class Banner(models.Model):
 
     # 表信息声明
     class Meta:
-        db_table = "ly_banner"
+        db_table = "y_banner"
         verbose_name = "轮播广告"
         verbose_name_plural = verbose_name
 
@@ -42,7 +42,7 @@ class Nav(BaseModel):
     is_site = models.BooleanField(default=False, verbose_name="是否是站外地址")
 
     class Meta:
-        db_table = 'ly_nav'
+        db_table = 'y_nav'
         verbose_name = '导航菜单'
         verbose_name_plural = verbose_name
 
@@ -65,7 +65,7 @@ class Bottom(BaseModel):
     is_site = models.BooleanField(default=False, verbose_name="是否是站外地址")
 
     class Meta:
-        db_table = 'ly_bottomn'
+        db_table = 'y_bottomn'
         verbose_name = '导航菜单'
         verbose_name_plural = verbose_name
 

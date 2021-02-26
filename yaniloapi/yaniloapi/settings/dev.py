@@ -239,18 +239,34 @@ LOGGING = {
 
 
 REST_FRAMEWORK = {
-    # 'DEFAULT_AUTHENTICATION_CLASSES': (
-    #     'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
-    #     'rest_framework.authentication.SessionAuthentication',
-    #     'rest_framework.authentication.BasicAuthentication',
-    # ),
-    # 'DEFAULT_FILTER_BACKENDS': (
-    #     'django_filters.rest_framework.DjangoFilterBackend',
-    # ),
-    # 异常处理
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
     'EXCEPTION_HANDLER': 'yaniloapi.utils.exceptions.custom_exception_handler',
 }
+import datetime
+JWT_AUTH = {
+    'JWT_EXPIRATION_DELTA': datetime.timedelta(days=1),
+}
 
+
+
+
+# REST_FRAMEWORK = {
+#     # 'DEFAULT_AUTHENTICATION_CLASSES': (
+#     #     'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+#     #     'rest_framework.authentication.SessionAuthentication',
+#     #     'rest_framework.authentication.BasicAuthentication',
+#     # ),
+#     # 'DEFAULT_FILTER_BACKENDS': (
+#     #     'django_filters.rest_framework.DjangoFilterBackend',
+#     # ),
+#     # 异常处理
+#     'EXCEPTION_HANDLER': 'yaniloapi.utils.exceptions.custom_exception_handler',
+# }
+AUTH_USER_MODEL = 'users.User'
 
 # 访问静态文件的url地址前缀
 STATIC_URL = '/static/'
@@ -259,7 +275,18 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR,"static")
 ]
 
+
+
+
+
+
 # 项目中存储上传文件的根目录[暂时配置]，注意，uploads目录需要手动创建否则上传文件时报错
 MEDIA_ROOT=os.path.join(BASE_DIR,"uploads")
 # 访问上传文件的url地址前缀
 MEDIA_URL ="/media/"
+
+# 收集静态文件的位置
+STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'static')
+
+# 收集命令
+# python manage.py collectstatic
